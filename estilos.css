@@ -61,7 +61,7 @@ img{
 }
 .textos h2{
     font-size: 30px;
-    color: rgba(184, 3, 48, 0.904);
+    color: #BC0318;
     animation: moverIzquierda 1s ease-in;
 }
 .textos a{
