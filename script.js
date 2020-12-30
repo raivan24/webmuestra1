@@ -13,6 +13,4 @@ boton.addEventListener("click", function(){
         contador=0;
     }
 
-
-
 })

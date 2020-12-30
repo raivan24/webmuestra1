@@ -41,12 +41,12 @@ nav a{
     display: flex;
     align-items: center;
     margin: auto;
-    margin-bottom: -90px;
+    margin-bottom: -80px;
     justify-content: space-around;
 }
 img{
     display: block;
-    height: 450px;
+    height: 500px;
     object-fit: cover;
     width: auto;
     animation: moverarriba 1s ease-in;
@@ -56,11 +56,12 @@ img{
     color: #fff;
 }
 .textos h1{
-    font-size: 40px;
+    font-size: 55px;
     animation: moverDerecha 1s ease-in;
 }
 .textos h2{
-    font-size: 20px;
+    font-size: 30px;
+    color: rgba(184, 3, 48, 0.904);
     animation: moverIzquierda 1s ease-in;
 }
 .textos a{
@@ -99,10 +100,7 @@ img{
 background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
-
 }
-
-
 .uno{
     clip-path: circle(0% at 0 0);
 
@@ -111,7 +109,6 @@ background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, F
     clip-path: circle(141.4% at 0 0);
 
 }
-
 
 @keyframes moverIzquierda{
     0%{
@@ -143,10 +140,85 @@ background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, F
         transform: translate(0);
     }
 }
+@media screen and (max-width:1089px){
+    img{
+        height: 460px;
+    }
+    .textos h1{
+        font-size: 50px;
+    }
+    .textos h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:993px){
+    img{
+        height: 400px;
+    }
+    .textos h1{
+        font-size: 42px;
+    }
+    .textos h2{
+        font-size: 25px;
+    }
+}
 
 
+@media screen and (max-width:849px){
+    img{
+        height: 350px;
+    }
+    .textos h1{
+        font-size: 35px;
+    }
+    .textos h2{
+        font-size: 20px;
+    }
+}
 
-
-
-
-
+@media screen and (max-width:725px){
+    img{
+        height: 300px;
+    }
+    .textos h1{
+        font-size: 30px;
+    }
+    .textos h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:470px){
+    .container{
+        width: 100%;
+        margin-bottom:0;
+        flex-wrap: wrap-reverse;
+        
+    }
+    
+    .textos{
+        width: 100%;
+        text-align: center;
+    }
+    .textos h1{
+        font-size: 35px;
+    }
+    .textos h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:396px){
+    img{
+        height: 200px;
+    }
+    .textos h1{
+        font-size: 26px;
+    }
+    .textos a{
+        width: 120px;
+    }
+    .textos h2{
+        font-size: 15px;
+    }
+    
+}
